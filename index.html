@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gia's Quiet Space</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Gia's Portfolio</div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="about.html">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="http://www.instagram.com/gia.artlog" target="_blank">Social Media</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Banner -->
+  <header class="hero">
+    <img src="images/herobanner.jpg" alt="Hero Banner" />
+    <div class="heroContent">
+      <h1>Hello, I'm Gia</h1>
+      <p>Welcome to my world of creative projects</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="content">
+    <h2>About Me</h2>
+    <p>I'm a passionate creator who loves to design, draw and share visual stories.
+      Here's a glimpse of my journey through my projects below.</p>
+  </section>
+
+  <!-- Project Cards -->
+  <section id="projects" class="cards">
+    <h2>My Projects</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="images/project1.jpg" alt="Project 1" />
+        <h3>Project One</h3>
+        <p>A cute logo design for PetHut</p>
+        <a href="images/project1.jpg" class="card-btn" target="_blank">View Details</a>
+      </div>
+      <div class="card">
+        <img src="images/project2.jpg" alt="Project 2" />
+        <h3>Project Two</h3>
+        <p>Character designs for cats</p>
+        <a href="images/project2.jpg" class="card-btn" target="_blank">View Details</a>
+      </div>
+      <div class="card">
+        <img src="images/project3.jpg" alt="Project 3" />
+        <h3>Project Three</h3>
+        <p>Animal stickers designs</p>
+        <a href="images/project3.jpg" class="card-btn" target="_blank">View Details</a>
+      </div>
+      <div class="card">
+        <img src="images/project4.jpg" alt="Project 4" />
+        <h3>Project Four</h3>
+        <p>Hand-drawn sketch of city view</p>
+        <a href="images/project4.jpg" class="card-btn" target="_blank">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Video -->
+  <section id="video">
+    <h2>Portfolio Introduction</h2>
+    <video controls width="100%">
+      <source src="video/intro.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Quote Section -->
+  <section class="quote-section">
+    <h2>Quote of the Day</h2>
+    <p id="quote">Loading quote...</p>
+    <button id="new-quote">New Quote</button>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>Contact me at <a href="mailto:gia.artlog@gmail.com">Gia's Mail</a></p>
+    <p>© 2025 Gia's Artlog</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
